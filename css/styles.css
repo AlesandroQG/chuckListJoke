@@ -27,5 +27,34 @@ button:hover {
   background-color: #0056b3;
 }
 
+#jokeList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
+#jokeList li {
+  background-color: wheat;
+  display: flex;
+  width: 500px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #d0bd9b;
+  border-radius: 25px;
+}
+
+#jokeList button {
+  background-color: red;
+  transition: 0.25s background-color linear;
+  transform: scale(.8);
+  width: 100px;
+  margin: 0;
+}
+
+#jokeList button:hover {
+  background-color: #ff7a7a;
+}
 
